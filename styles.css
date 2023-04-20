@@ -1,0 +1,21 @@
+* {
+    background-color: #feffe3;
+    font-family: Geneva, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 22%;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
