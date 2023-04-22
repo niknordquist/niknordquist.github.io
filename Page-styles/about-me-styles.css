@@ -1,0 +1,83 @@
+* {
+    background-color: #feffe3;
+    font-family: Geneva, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-left: 22.5%;
+}
+
+#images > img {
+    width: 20vw;
+    padding: 10px;
+}
+
+#info-text {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    padding: 10px;
+    text-align: left;
+}
+
+#info-text h2 {
+    font-size: calc(10px + 3vw);
+    font-family: Monospace;
+    font-weight: normal;
+}
+
+#info-text p {
+    font-size: calc(5px + 1vw);
+}
+
+.cursor {
+    padding-right: 2vw;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end;
+}
+
+#languages {
+    list-style: none;
+    float: left;
+}
+
+@keyframes blink {
+    0% {
+        background-color: black;
+        color: white
+    }
+    50% {
+        background-color: transparent;
+        color: black;
+    }
+    100% {
+        background-color: black;
+        color: white
+    }
+}
+
+#foot {
+    height: 10vh;
+}
