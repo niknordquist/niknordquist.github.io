@@ -4,35 +4,40 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Nik Nordquist | Home</title>
-        <link rel="stylesheet" href="/Page-styles/styles.css"/>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <header>
-            <div id="header-border">
-                <h1>Nik Nordquist</h1>
+        <div id="main">
+            <div class="column" id="left">
+                <img id="main-img" src="Photos/nikpic.jpg" alt="Picture of Me!">
+                <a href="project_page/projects.html"><div id="projects">Projects</div></a>
             </div>
-            <p id='caption1' class="caption">UW-Madison | Computer Sciences</p>
-            <p id='caption2' class="caption">Welcome to my Portfolio!</p>
-        </header>
-        <main>
-            <img id="main-image" alt='Image of me!' src="/Photos/main-image.jpg"/>
-            <nav id="navbar">
-                <ul>
-                    <li class="page" id="projects"><a target='_blank' class="page-link" href="Pages/projects.html">Projects</a></li>
-                    <li class="page" id="about-me"><a target='_blank' class="page-link" href="Pages/about-me.html">About Me</a></li>
-                </ul>
-            </nav>
-        </main>
-    </body>
-    <footer>
-        <h2 id="footing-header">Contact Information</h2>
-        <p id="email">Email: <i>nnordquist3@gmail.com</i></p>
-        <div id="linkbar">
-            <div id="links">
-                <a class='img-link' href="https://github.com/niknordquist" target="_blank"><img id="github" src='/Photos/github.png'/></a>
-                <a class='img-link' href="https://www.linkedin.com/in/nik-nordquist-14646222a/" target="_blank"><img id="linkedin" src='/Photos/linkedin.png'/></a>
+            <div class="column" id="right">
+                <h1>Hi, I'm Nik.<span class='cursor'></span></h1>
+                <p id="subtitle">UW-Madison | Computer Science</p>
+                <p id="info">20 years old<br/>
+                    Madison, WI<br/><br/>
+                    I was born and raised in small-town Wisconsin, and am now attending the University of 
+                    Wisconsin-Madison, working towards a degree in Computer Sciences.<br/><br/>
+                    What started as a passion for technology and computers has now become a passion for creativity 
+                    and exploring the world of programming and computer theory.<br/><br/>
+                    Currently looking for internship opportunities in a field relating to
+                    software, web, and/or app development for summer of 2024.<br/><br>
+                    CONTACT: <a id="contact-link" href="mailto:nnordquist3@gmail.com">nnordquist3@gmail.com</a><br><br>
+                    Fluent in:<br/><br/>
+                    <div class="logos">
+                        <img src="Photos/Logos/javalogo.png" alt="Java">
+                        <img src="Photos/Logos/pylogo.png" alt="Python">
+                        <img src="Photos/Logos/htmllogo.png" alt="HTML">
+                        <img src="Photos/Logos/csslogo.png" alt="CSS">
+                        <img src="Photos/Logos/jslogo.png" alt="JavaScript">
+                    </div>
+                </p>
             </div>
         </div>
-        <div id="foot"></div>
-    </footer>
+    </body>
+    <div class="links">
+            <a target="_blank" href="https://github.com/niknordquist"><img src="Photos/Logos/github-logo.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/nik-nordquist-14646222a/"><img src="Photos/Logos/linkedin-logo.png"></a>
+    </div>
 </html>
