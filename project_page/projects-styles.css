@@ -30,29 +30,58 @@ body {
     text-align: center;
 }
 
-#page-text {
-    margin-top: 25vh;
+#projects {
+    margin-top: 8vh;
+    display: block;
 }
 
-#index {
-    display: flex;
-    width: 20%;
-    min-width: 140px;
-    height: 8vh;
-    font-size: calc(1.8em + 6px);
+#info {
+    margin: 10vh auto 0 auto;
+    font-family: Helvetica, sans-serif;
+}
+
+#info p {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Garamond, 'Times New Roman', Times, serif;
+}
+
+.projectButton {
+    display: block;
+    width: 30%;
+    min-width: 200px;
+    height: 15vh;
+    font-size: calc(1.2em + 6px);
     border: 1px solid white;
     background-color: var(--buttonblue);
     margin: 2vh auto 0 auto;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 10px rgba(180,180,180,0.7);
+    border: 1px solid var(--white);
 }
 
 a {
     text-decoration: none;
+}
+
+#index {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+    position: fixed;
+    display: block;
+    top: 5%;
+    left: 2.5%;
+    text-align: center;
+    width: 10%;
+    min-width: 140px;
+    font-size: calc(1.4em + 6px);
+    background-color: var(--buttonblue);
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px rgba(180,180,180,0.7);
 }
 
 #index:hover {
@@ -62,4 +91,25 @@ a {
 #index:active {
     transform: translateY(4px);
     box-shadow: 0 6px rgba(180,180,180,0.7);
+}
+
+.projectButton:hover {
+    background-color: #1b4256;
+    cursor: pointer;
+}
+
+#comingSoon:hover {
+    background-color: var(--buttonblue);
+    cursor: auto
+}
+
+.projectButton:active {
+    background-color: var(--buttonblue);
+}
+
+@media (max-width: 700px) {
+    #index {
+        position: relative;
+        margin: 0 auto;
+    }
 }
