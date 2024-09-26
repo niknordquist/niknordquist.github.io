@@ -1,0 +1,3 @@
+[submodule "epl-player-trivia"]
+	path = epl-player-trivia
+	url = https://github.com/niknordquist/epl-player-trivia.git
